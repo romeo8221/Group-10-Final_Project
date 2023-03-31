@@ -36,4 +36,79 @@ html{ font-size: 16px;
 
  
 }
+.logo-1 {
+    width: 125px;
+    height: 125px;
+    top: 0;
+ 
+    position: absolute;
+}
+.header-1 {
+    position: absolute;
+    margin-left: 115px;
+    padding: -1;
+    padding-top: 13px;
+}
+.header-2 {
+    position: absolute;
+    margin-left: 410px;
+    padding-top: 20px;
 
+
+}
+a {
+    text-decoration: none;
+}
+.dropdown {
+    float: right;
+   
+}
+
+#about {
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .column {
+    margin: 10px;
+  }
+
+  
+  .profile-pic {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-pic:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .profile-pic::before {
+    content: "data-name";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .profile-pic:hover::before {
+    opacity: 1;
+  }
