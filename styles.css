@@ -11,7 +11,7 @@ html{ font-size: 16px;
 
 }
 
-h1,p{
+.BQ-h1, .about-us-story {
     text-align: center;
     margin: 2rem ;
     font-weight: 800;
@@ -20,12 +20,12 @@ h1,p{
     
 }
 
-h1{
+.BQ-h1{
     font-size: 3rem;
 }
 
-p{
-    color:black;
+.about-us-story {
+    color: #000;
 }
 .about-image{
   background-image:url(images/cake-gd59c99d7c_1920.jpg); 
