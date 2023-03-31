@@ -11,21 +11,24 @@ html{ font-size: 16px;
 
 }
 
-h1,p{
+nav{
+    border-bottom: 1px solid #000;
+    padding-bottom: 80px;
+}
+
+.BQ-h1, .about-us-story {
     text-align: center;
     margin: 2rem ;
     font-weight: 800;
-    justify-content: stretch;
-    padding: 1rem;  
-    
+ 
 }
 
-h1{
+.BQ-h1{
     font-size: 3rem;
 }
 
-p{
-    color:black;
+.about-us-story {
+    color: #000;
 }
 .about-image{
   background-image:url(images/cake-gd59c99d7c_1920.jpg); 
@@ -33,6 +36,7 @@ p{
   background-repeat: no-repeat;
   background-position: center;
   padding: 2rem;
+  margin-bottom: 2rem;  
 
  
 }
@@ -61,6 +65,7 @@ a {
 }
 .dropdown {
     float: right;
+    
    
 }
 
