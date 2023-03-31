@@ -36,6 +36,33 @@ p{
 
  
 }
+.logo-1 {
+    width: 125px;
+    height: 125px;
+    top: 0;
+ 
+    position: absolute;
+}
+.header-1 {
+    position: absolute;
+    margin-left: 115px;
+    padding: -1;
+    padding-top: 13px;
+}
+.header-2 {
+    position: absolute;
+    margin-left: 410px;
+    padding-top: 20px;
+
+
+}
+a {
+    text-decoration: none;
+}
+.dropdown {
+    float: right;
+   
+}
 
 #about {
     text-align: center;
