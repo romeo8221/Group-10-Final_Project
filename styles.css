@@ -31,7 +31,6 @@ nav {
     margin-left: 410px;
     padding-top: 20px;
 
-
 }
 a {
     text-decoration: none;
@@ -145,22 +144,4 @@ a {
 
   
 
-
-.Landing_img{
-  background-image: url(./images/bakersq-index-img.jpg);
-  background-size:100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 12rem;
-  display: flex;
-  align-items:space-around;
-  justify-content: space-around;
-
-  
-}
-
-.header_buttons{
-  margin: 2rem 4rem;
-  padding: .5rem 1rem;
-}
 
