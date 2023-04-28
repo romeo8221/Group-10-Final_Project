@@ -9,7 +9,7 @@
 html { font-size: 16px;
     background-color: #D9D9D9;
 }
-<<<<<<< HEAD
+
 /*Nav Section Start*/
 header {
   display: flex;
@@ -22,12 +22,7 @@ header {
   z-index: 1000;
   align-items: center;
   transition: .3s;
-=======
 
-nav {
-    border-bottom: 1px solid #000;
-    padding-bottom: 80px;
->>>>>>> 4d30a9788f3f9a04707c3482bce5acbbc0b1b618
 }
  .nav {
   margin: 0 auto;
@@ -99,7 +94,7 @@ nav {
  }
 /*Nav Section End*/
 
-<<<<<<< HEAD
+
 .BQ-h1, .about-us-story {
     text-align: center;
     margin: 2rem ;
@@ -124,36 +119,14 @@ nav {
 
  
 }
-=======
-.logo-1 {
-    width: 90px;
-    height: auto;
-    top: 0;
-    position: absolute;
-}
-.header-1 {
-    position: absolute;
-    margin-left: 115px;
-    padding: -1;
-    padding-top: 13px;
-}
-.header-2 {
-    position: absolute;
-    margin-left: 410px;
-    padding-top: 20px;
->>>>>>> 4d30a9788f3f9a04707c3482bce5acbbc0b1b618
+
 
 }
 a {
     text-decoration: none;
 }
-<<<<<<< HEAD
-=======
-.dropdown {
-    float: right;
-   
-}
->>>>>>> 4d30a9788f3f9a04707c3482bce5acbbc0b1b618
+
+
 
 .BQ-h1, .about-us-story {
     text-align: center;
@@ -225,7 +198,7 @@ a {
   .profile-pic:hover::before {
     opacity: 1;
   }
-<<<<<<< HEAD
+
 /*Footer Section Start*/
 
 footer {
@@ -272,7 +245,7 @@ color:chocolate;
 }
 
 /*Footer Section End*/
-=======
+
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
